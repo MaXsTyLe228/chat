@@ -43,9 +43,6 @@ const ServerTemperature: React.FC = () => {
         };
     }
 
-    const clickConnect = () => {
-        connect()
-    }
     return (
         <div>
             {!connected && <div className="flex ">
